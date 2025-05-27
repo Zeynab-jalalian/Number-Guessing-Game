@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,27 @@
     <link rel="shortcut icon" href="img/favicon.svg" type="image/svg+xml">
     <title>Number Guessing Game</title>
 </head>
+
 <body>
-    
 
+    <div class="wrapper">
+        <h1>Number Guessing Game</h1>
+        <p>Guess a number between 1 and 100</p>
+        <p>Only 10 chances</p>
 
-    
+        <form>
+            <label for="guessField" id="guess">Guess a Number</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="guess" value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="result">
+            <p>Guesses so far: <span class="guesses"></span></p>
+            <p>Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHigh"></p>
+        </div>
+    </div>
+
 </body>
+
 </html>
