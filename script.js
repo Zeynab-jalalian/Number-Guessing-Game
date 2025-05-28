@@ -48,9 +48,9 @@ function check(numberValue) {
 function activateBox(e) {
     promptResult.classList.add("active");
     if (e === "Win") {
-        result.innerHTML = "You won... but this is just the beginning.";
+        result.innerHTML = "You won... but how?! Impossible — how could you beat me?!";
     } else if (e === "Loss") {
-        result.innerHTML = "You failed. This game is not for you.";
+        result.innerHTML = "!See? You're a loser — just like I said!";
     }
 }
 
