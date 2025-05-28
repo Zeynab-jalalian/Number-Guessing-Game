@@ -37,7 +37,14 @@ body.prompt-active::before {
 .result {
   z-index: 2;
 }
-
+.main{
+    z-index: 2;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .box {
   background: #111;
   border: 4px double #00ffcc;
