@@ -35,10 +35,12 @@ function check(numberValue){
 function activateBox(e) {
     promptResult.classList.add("active");
     result.innerHTML=" You " + e + " The Game ";
+    document.body.classList.add("prompt-active");
 }
 function play(e){
     promptResult.classList.remove("active");
     chances=10;
     chancesText.innerHTML = "chances:" + chances;
     txt.innerHTML="";
+    document.body.classList.remove("prompt-active");
 }
