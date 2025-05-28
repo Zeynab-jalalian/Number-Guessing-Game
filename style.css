@@ -38,6 +38,3 @@ body {
 .result.active {
     display: block;
 }
-.result.active .box{
-    background: #000;
-}
